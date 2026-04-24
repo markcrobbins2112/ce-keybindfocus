@@ -1,0 +1,11 @@
+{
+  "name": "keybindfocus",
+  "version": "0.0.1",
+  "description": "Focus the keybindings UI, reuse existing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "markrobbins",
+  "license": "ISC"
+}
