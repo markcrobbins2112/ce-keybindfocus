@@ -1,11 +1,49 @@
 {
-  "name": "keybindfocus",
-  "version": "0.0.1",
-  "description": "Focus the keybindings UI, reuse existing",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "markrobbins",
-  "license": "ISC"
+	"name": "keybindfocus",
+	"displayName": "Keybindings Focus",
+	"version": "0.0.1",
+	"description": "Open or focus the keybindings GUI with proper focus commands",
+	"publisher": "markrobbins",
+	"scripts": {
+		"lint": "echo \"No lint configured yet\"",
+		"test": "echo \"No tests configured yet\"",
+		"package": "vsce package"
+	},
+	"engines": {
+		"vscode": "^1.70.0",
+		"node": ">=18"
+	},
+	"activationEvents": [
+		"onCommand:keybindingsFocus.open",
+		"onCommand:keybindingsFocus.openSearch",
+		"onCommand:keybindingsFocus.openList"
+	],
+	"main": "./extension.js",
+	"files": [
+		"extension.js",
+		"README.md"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "keybindingsFocus.open",
+				"title": "Keybindings: Open or Focus"
+			},
+			{
+				"command": "keybindingsFocus.openSearch",
+				"title": "Keybindings: Open and Focus Search"
+			},
+			{
+				"command": "keybindingsFocus.openList",
+				"title": "Keybindings: Open and Focus List"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^22.15.3",
+		"@types/vscode": "^1.70.0",
+		"@vscode/vsce": "^3.6.2"
+	},
+	"author": "markrobbins",
+	"license": "ISC"
 }
