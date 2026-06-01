@@ -28,8 +28,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/markchristianrobbins/markrobbins.git"
+		"url": "https://github.com/markchristianrobbins/keybindfocus.git"
 	},
+	"bugs": {
+		"url": "https://github.com/markchristianrobbins/keybindfocus/issues"
+	},
+	"homepage": "https://github.com/markchristianrobbins/keybindfocus#readme",
 	"activationEvents": [
 		"onCommand:keybindingsFocus.open",
 		"onCommand:keybindingsFocus.openSearch",
