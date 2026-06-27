@@ -35,9 +35,6 @@
 	},
 	"homepage": "https://github.com/markchristianrobbins/keybindfocus#readme",
 	"activationEvents": [
-		"onCommand:keybindingsFocus.open",
-		"onCommand:keybindingsFocus.openSearch",
-		"onCommand:keybindingsFocus.openList"
 	],
 	"contributes": {
 		"commands": [
