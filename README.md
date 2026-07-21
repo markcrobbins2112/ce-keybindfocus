@@ -1,8 +1,13 @@
-# Keybindings Focus Extension
+---
+title: README
+---
+
+# README
 
 Open Keybindings UI as a single instance, focus search or list - very nice.
 
 ![icon](icon.jpg)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/markcrobbins)
 
 ## Commands
 - Open or Focus
